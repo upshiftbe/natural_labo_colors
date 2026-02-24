@@ -1,11 +1,9 @@
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
-import { Header } from "@/components/Header";
 
 export default function Home() {
   return (
     <>
-      <Header />
       <main className="relative min-h-screen pt-[72px]">
         {/* Hero content block */}
         <section className="relative z-10 mx-auto max-w-7xl px-6 pt-16 sm:px-10 md:pt-24">
@@ -13,8 +11,8 @@ export default function Home() {
             {/* Left: headline */}
             <div className="flex flex-col justify-end">
               <h1 className="text-4xl font-bold leading-[1.1] tracking-tight text-headline sm:text-5xl md:text-6xl lg:text-7xl">
-                NATURAL{" "}
-                <span className="text-accent">and</span> DEFINING COLORS.
+                NATURAL <span className="text-accent">and</span> DEFINING
+                COLORS.
               </h1>
             </div>
             {/* Right: paragraph + CTA */}
